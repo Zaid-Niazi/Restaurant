@@ -1,3 +1,4 @@
+import "./style.css";
 import { contentLoader, mainMenu } from "./modules/content.js";
 import { menuMaker } from "./modules/menu.js";
 import { aboutPageMaker } from "./modules/about.js";

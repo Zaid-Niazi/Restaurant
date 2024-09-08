@@ -13,12 +13,12 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.css$/, // For CSS files
+        test: /\.css$/i,
         use: ["style-loader", "css-loader"],
       },
 
       {
-        test: /\.jpg$/, // For CSS files
+        test: /\.jpg$/,
         type: "asset/resource",
       },
     ],
