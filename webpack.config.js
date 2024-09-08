@@ -16,6 +16,11 @@ module.exports = {
         test: /\.css$/, // For CSS files
         use: ["style-loader", "css-loader"],
       },
+
+      {
+        test: /\.jpg$/, // For CSS files
+        type: "asset/resource",
+      },
     ],
   },
   plugins: [
