@@ -10,6 +10,7 @@ module.exports = {
     filename: "main.js", // Output bundle file,
     clean: true,
   },
+
   module: {
     rules: [
       {
